@@ -21,6 +21,9 @@ namespace Modifiers.Base
         public Example()
         {
             this.OnlyInAssemblyDueToInternalModifier = new OnlyInAssemblyDueToInternalModifier();
+            string a = this.OnlyInAssemblyDueToInternalModifier.InternalField;
+            string b = this.OnlyInAssemblyDueToInternalModifier.ProtectedInternalField;
+            string c = this.OnlyInAssemblyDueToInternalModifier.PublicField;
         }
 
         //Inconsistent accessibility in return

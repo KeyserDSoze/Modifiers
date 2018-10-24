@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modifiers.Base", "Modifiers
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{4DB0721E-3845-4EC7-B3F5-71C2CF02AF61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viewer", "Viewer\Viewer.csproj", "{1AD2C849-4950-4183-8834-D955D9E527F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modifiers.Viewer", "Viewer\Modifiers.Viewer.csproj", "{1AD2C849-4950-4183-8834-D955D9E527F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

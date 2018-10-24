@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{1AD2C849-4950-4183-8834-D955D9E527F8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Viewer</RootNamespace>
-    <AssemblyName>Viewer</AssemblyName>
+    <RootNamespace>Modifiers.Viewer</RootNamespace>
+    <AssemblyName>Modifiers.Viewer</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -21,6 +21,7 @@ namespace Modifiers.Base
         public Example()
         {
             this.OnlyInAssemblyDueToInternalModifier = new OnlyInAssemblyDueToInternalModifier();
+            //it's accessible by instance only public, internal and protected internal (cause it's a logic OR through protected and internal)
             string a = this.OnlyInAssemblyDueToInternalModifier.InternalField;
             string b = this.OnlyInAssemblyDueToInternalModifier.ProtectedInternalField;
             string c = this.OnlyInAssemblyDueToInternalModifier.PublicField;
